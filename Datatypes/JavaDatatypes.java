@@ -15,21 +15,18 @@ class Solution1{
 				System.out.println(x+" can be fitted in:");
 				try{
 					byte y = (byte) x;
-					System.out.println(y);
 					if(y ==x){
 						System.out.println(" *byte");
 					}
-				}catch(Exception e){System.out.println(" this is practise");}
+				}catch(Exception e){}
 				try{
 					short y = (short) x;
-					System.out.println(y);
 					if(y ==x){
 						System.out.println(" *short");
 					}
 				}catch(Exception e){}
 				try{
 					int y = (int) x;
-					System.out.println(y);
 					if(y ==x){
 						System.out.println(" *int");
 					}
